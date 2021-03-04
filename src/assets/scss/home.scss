@@ -1,0 +1,20 @@
+.home {
+
+
+  &-wrapper {
+    background: linear-gradient(180deg, #090810 0%, #171236 100%);
+    padding-bottom: 14px;
+  }
+  .header {
+    .link {
+      color: #ffffff;
+    }
+  }
+
+  .container-fluid {
+    max-width: 855px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+}

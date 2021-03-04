@@ -1,0 +1,45 @@
+.login-page{
+  background: #F2F2F2;
+  height: 100vh;
+  .header {
+    background: #F2F2F2;
+  }
+
+  .form {
+    margin-top: 80px;
+    .button {
+      padding: 19px 10px;
+      font-family: 'Helvetica';
+      font-size: 16px;
+      line-height: 18px;
+      text-align: center;
+      letter-spacing: 0.4px;
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+  }
+
+  .account-exists {
+    max-width: 425px;
+    width: 100%;
+    padding: 30px;
+    margin-top: 21px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.111233);
+    border-radius: 7px;
+
+    p {
+      font-family: 'Helvetica';
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      letter-spacing: 0.4px;
+      color: #2A2A2A;
+    }
+
+    span {
+      color: #349a89;
+      cursor: pointer;
+    }
+  }
+}

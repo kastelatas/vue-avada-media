@@ -1,0 +1,38 @@
+.modal-body {
+  height: 100%;
+  display: flex;
+  padding: 10px;
+  .content {
+    width: 100%;
+    margin-top: 4rem;
+
+    p {
+      font-family: "Helvetica";
+      font-size: 15px;
+      line-height: 17px;
+      color: #373738;
+      padding: 6px 9px 3.5px 6px;
+    }
+  }
+}
+.close {
+  font-family: "Helvetica";
+  position: absolute;
+  right: 10px;
+  top: 2px;
+  cursor: pointer;
+  z-index: 20;
+
+}
+
+.slider {
+  max-width: 400px;
+  .slider-wrapper {
+    max-height: 300px;
+
+    img {
+      max-width: 300px;
+      object-fit: cover;
+    }
+  }
+}

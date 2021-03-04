@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: flex;
+}
+
+.jc-center {
+  display: flex;
+  justify-content: center;
+}
+
+.jc-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jc-space-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ai-center {
+  display: flex;
+  align-items: center;
+}
+
+
+.error {
+  color:red;
+  text-align: center;
+  margin: 2px 0;
+  display: block;
+}
+
+
+@import "fonts";
+@import "./partials/button";
+
+@import "header";
+@import "form";
+@import "login-page";
+@import "home";
+@import "search";
+@import "filter";
+@import "post-list";
+@import "post";
+@import "create-post";
+@import "modal";
+@import "loader";
+@import "media";
